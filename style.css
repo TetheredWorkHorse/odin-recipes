@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
     background-color: #cccccc; */
     /* shorthand */
-    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('recipes/images/odin-project-bg.png') center / cover no-repeat fixed #cccccc;
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('/recipes/images/odin-project-bg.png') center / cover no-repeat fixed #cccccc;
 
 }
 
