@@ -1,0 +1,77 @@
+body {
+    /* background-image: url('/recipes/images/Odin\ Project\ \(bg\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #cccccc; */
+    /* shorthand */
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('/recipes/images/Odin\ Project\ \(bg\).png') center / cover no-repeat fixed #cccccc;
+
+}
+
+.recipe-container {
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    margin: 200px auto;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: -5px -5px 10px #ffffff,
+        5px 5px 10px #babecc;
+    background: radial-gradient(circle, #fdbb2d00, #d8ab31);
+}
+
+.recipe-container h1 {
+    text-align: center;
+    margin-bottom: 70px;
+    color: #042194;
+}
+
+.recipe-container>div>ul>li {
+    margin-bottom: 26px;
+    list-style: none;
+}
+
+.menu-selection {
+    padding: 2px;
+}
+
+.menu-selection a {
+    text-decoration: none;
+}
+
+.menu-selection a:hover {
+    color: brown;
+}
+.recipe-title{
+    text-align: center;
+}
+.recipe-image{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    box-shadow: -5px -5px 10px #ffffff,
+             5px 5px 10px #babecc;
+}
+.recipe-detail{
+    padding: 0px 20px;
+    width: 70%;
+    height: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #babecc transparent;
+    font-size: 20px;
+}
+.recipe-detail:hover{
+    box-shadow: inset -5px -5px 10px #ffffff,
+        inset 5px 5px 10px #babecc;
+    border-radius: 10px;
+    overflow: scroll;
+}
+footer a{
+    font-size: 25px;
+    text-decoration: none;
+}
