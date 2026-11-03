@@ -8,6 +8,7 @@ body {
     border-radius: 5%;
     margin: 200px auto;
     padding: 10px;
+    font-family: "Liberation Serif",Helvetica,sans-serif,"Times New Roman";
     font-size: 20px;
     box-shadow: -5px -5px 10px #ffffff,
         5px 5px 10px #babecc;
@@ -55,6 +56,7 @@ body {
     overflow: hidden;
     scrollbar-width: thin;
     scrollbar-color: #babecc transparent;
+    font-family: "Liberation Serif",Helvetica,sans-serif,"Times New Roman";
     font-size: 20px;
 }
 .recipe-detail:hover{
